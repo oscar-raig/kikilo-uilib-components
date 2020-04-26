@@ -1,0 +1,27 @@
+
+dist: bionic
+sudo: false
+language: node_js
+cache:
+  directories:
+    - node_modules
+node_js:
+  - '12.0.0'
+before_install:
+  - npm config set //registry.npmjs.org/:_authToken $NPM_TOKEN
+install:
+  - npm run phoenix
+script:
+  - npm run check:release
+  - npm run coverage:ci
+jobs:
+  include:
+    - stage: Release packages
+      if: branch = master AND NOT type = pull_request
+      script:
+        - echo "Write here your command"
+
+after_failure:
+  - reports-publisher
+after_success:
+  - reports-publisher
