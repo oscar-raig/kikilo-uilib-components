@@ -7,14 +7,14 @@
 ## Installation
 
 ```sh
-$ npm install @kikilo-uilib-components/sui-dictionary-quiz-pair-words
+$ npm install @kikilo/kikilo-dictionary-quiz-pair-words
 ```
 
 ## Usage
 
 ### Basic usage
 ```js
-import DictionaryQuizPairWords from '@kikilo-uilib-components/sui-dictionary-quiz-pair-words'
+import DictionaryQuizPairWords from '@kikilo/kikilo-dictionary-quiz-pair-words'
 
 return (<DictionaryQuizPairWords />)
 ```
