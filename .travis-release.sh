@@ -3,8 +3,8 @@
 # get all the commits log for creating the correct Changelog
 git pull --unshallow 2>&1 >/dev/null
 # define names
-git config --global user.email "ps.jenkins.github@adevinta.com"
-git config --global user.name "sui-bot"
+git config --global user.email "oscar.raig@gmail.com"
+git config --global user.name "oscar-raig"
 # Remove existing "origin"
 git remote rm origin
 # Add new "origin" with access token in the git URL for authentication
