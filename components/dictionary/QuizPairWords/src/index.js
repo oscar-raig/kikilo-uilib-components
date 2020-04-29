@@ -33,7 +33,7 @@ export default function DictionaryQuizPairWords({wordPairs}) {
   }
 
   const resloveQuiz = () => {
-    console.log('Just resolved!!!!')  // eslint-disable-line
+    console.log('Just resolved!!!!!')  // eslint-disable-line
   }
 
   return (
