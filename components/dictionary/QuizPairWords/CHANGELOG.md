@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.2.0 (2020-04-29)
+
+
+### Features
+
+* add description ([f44c5cb](https://github.com/oscar-raig/kikilo-uilib-components/commit/f44c5cb02164b6ff1cb57096edf884da903cb0da))
+
+
+
 # 1.1.0 (2020-04-29)
 
 
