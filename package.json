@@ -2,7 +2,7 @@
   "name": "kikilo-uilib-components",
   "version": "1.0.0",
   "description": "",
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "sui-studio build",
     "check:release": "sui-studio check-release",

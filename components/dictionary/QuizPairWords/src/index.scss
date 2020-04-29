@@ -1,5 +1,31 @@
 @import '~@s-ui/theme/lib/index';
 
-.sui-DictionaryQuizPairWords {
-  // Do your magic
+.kik-DictionaryQuizPairWords-container {
+  display: flex;
+  flex-direction: column;
+  & .button-result {
+    width: 100px;
+  }
+}
+
+.kik-DictionaryQuizPairWords {
+  background-color: aquamarine;
+  display: flex;
+  & .kik-element-key {
+    background-color: blue;
+    flex: 40%;
+  }
+
+  & .kik-element-input {
+    background-color: yellow;
+    flex: 10%;
+  }
+  & .kik-element-index {
+    background-color: yellowgreen;
+    flex: 10%;
+  }
+  & .kik-element-value {
+    background-color: green;
+    flex: 40%;
+  }
 }

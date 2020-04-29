@@ -14,7 +14,7 @@ $ npm install @kikilo/kikilo-dictionary-quiz-pair-words
 
 ### Basic usage
 ```js
-import DictionaryQuizPairWords from '@kikilo/kikilo-dictionary-quiz-pair-words'
+import DictionaryQuizPairWords from '@kikilo/dictionary-quiz-pair-words'
 
 return (<DictionaryQuizPairWords />)
 ```

@@ -1,1 +1,5 @@
-return (<DictionaryQuizPairWords />)
+const wordPairsExample = {
+    neska : 'nena',
+    gazta : 'formatge'
+}
+return (<DictionaryQuizPairWords wordPairs = {wordPairsExample}  />)
