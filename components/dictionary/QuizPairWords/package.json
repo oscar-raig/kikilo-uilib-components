@@ -2,6 +2,7 @@
   "name": "@kikilo/dictionary-quiz-pair-words",
   "version": "1.1.0",
   "description": "",
+  "private": false,
   "main": "lib/index.js",
   "scripts": {
     "build": "npx rimraf ./lib && npm run build:js && npm run build:styles",
