@@ -1,6 +1,6 @@
 {
   "name": "@kikilo/dictionary-quiz-pair-words",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "",
   "private": false,
   "main": "lib/index.js",
