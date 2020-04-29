@@ -2,12 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.5.0 (2020-04-29)
+
+
+
 # 1.4.0 (2020-04-29)
 
 
 ### Features
 
-* test ci ([395fb1c](https://github.com/oscar-raig/kikilo-uilib-components/commit/395fb1c8ecb53b668f47424d0398c553b242fe46))
+* **dictionary/QuizPairWords:** test ci ([395fb1c](https://github.com/oscar-raig/kikilo-uilib-components/commit/395fb1c8ecb53b668f47424d0398c553b242fe46))
 
 
 
@@ -16,7 +20,7 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-* test ci ([ddf4df6](https://github.com/oscar-raig/kikilo-uilib-components/commit/ddf4df68d77e957d53bbe9b4df8251f44dd5a08b))
+* **dictionary/QuizPairWords:** test ci ([ddf4df6](https://github.com/oscar-raig/kikilo-uilib-components/commit/ddf4df68d77e957d53bbe9b4df8251f44dd5a08b))
 
 
 
@@ -25,7 +29,7 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-* add description ([f44c5cb](https://github.com/oscar-raig/kikilo-uilib-components/commit/f44c5cb02164b6ff1cb57096edf884da903cb0da))
+* **dictionary/QuizPairWords:** add description ([f44c5cb](https://github.com/oscar-raig/kikilo-uilib-components/commit/f44c5cb02164b6ff1cb57096edf884da903cb0da))
 
 
 
@@ -34,7 +38,7 @@ All notable changes to this project will be documented in this file.
 
 ### Bug Fixes
 
-* testing ci ([#6](https://github.com/oscar-raig/kikilo-uilib-components/issues/6)) ([971c5ab](https://github.com/oscar-raig/kikilo-uilib-components/commit/971c5ab6a3869dab579f23fbfedb29ecdee2440d))
+* **dictionary/QuizPairWords:** testing ci ([#6](https://github.com/oscar-raig/kikilo-uilib-components/issues/6)) ([971c5ab](https://github.com/oscar-raig/kikilo-uilib-components/commit/971c5ab6a3869dab579f23fbfedb29ecdee2440d))
 
 
 
