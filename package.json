@@ -1,6 +1,6 @@
 {
   "name": "kikilo-uilib-components",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "",
   "private": false,
   "scripts": {
@@ -40,7 +40,9 @@
     }
   },
   "eslintConfig": {
-    "extends": ["./node_modules/@s-ui/lint/eslintrc.js"]
+    "extends": [
+      "./node_modules/@s-ui/lint/eslintrc.js"
+    ]
   },
   "stylelint": {
     "extends": "./node_modules/@s-ui/lint/stylelint.config.js"
