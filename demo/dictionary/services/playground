@@ -1,0 +1,11 @@
+return (
+    <DictionaryServices>
+    {
+        (service ) => {
+             service()
+             //return (<div><h1>Inside services</h1></div>)
+            return null
+        }
+    }
+    </DictionaryServices>
+)

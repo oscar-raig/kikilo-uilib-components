@@ -9,7 +9,7 @@
     "co": "sui-studio commit",
     "commitmsg": "validate-commit-msg",
     "dev": "sui-studio dev",
-    "generate": "sui-studio generate --prefix sui --scope kikilo-uilib-components",
+    "generate": "sui-studio generate --prefix kikilo --scope kikilo-uilib-components",
     "lint:js": "sui-lint js",
     "lint:sass": "sui-lint sass",
     "lint": "npm run lint:js && npm run lint:sass",
