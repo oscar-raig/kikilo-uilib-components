@@ -29,11 +29,11 @@ export default function DictionaryQuizSum() {
   const showSum = () => {
     return (
       <div className="kik-Sum-Container">
-        <div>
+        <div className="kik-Fail">
           <span>Errades</span>
           <span> {fails} </span>
         </div>
-        <div>
+        <div className="kik-Hit">
           <span> Encerts </span>
           <span> {hits} </span>
         </div>
@@ -46,14 +46,22 @@ export default function DictionaryQuizSum() {
         <div className="kik-Sum-second-operand">
           <span> {secondOperand} </span>
         </div>
-        <div className="kik-Sum-result">
-          <input onChange={resultChanged} size="2" value={result} />
+        <div>
+          <input
+            className="kik-Sum-result"
+            onChange={resultChanged}
+            size="2"
+            value={result}
+            type="number"
+          />
         </div>
-        <div className="kik-Sum-resolve">
-          <button onClick={newQuizResolve}>Resol</button>
-        </div>
-        <div className="kik-Sum-new-quiz">
-          <button onClick={newQuizSum}>Nova Suma</button>
+        <div className="kik-buttons-container">
+          <div className="kik-Sum-resolve">
+            <button onClick={newQuizResolve}>Resol</button>
+          </div>
+          <div className="kik-Sum-new-quiz">
+            <button onClick={newQuizSum}>Nova Suma</button>
+          </div>
         </div>
       </div>
     )

@@ -3,3 +3,36 @@
 .kikilo-DictionaryQuizSum {
   // Do your magic
 }
+
+.kik-Sum-Container {
+  user-select: none;
+  font-size: 40px;
+  text-align: center;
+}
+
+.kik-Sum-result {
+  width: 80px;
+}
+
+.kik-Sum-resolve {
+  font-size: 40px;
+  border: 2px solid #1b1f23;
+  margin: 10px 24px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.kik-Sum-new-quiz {
+  font-size: 40px;
+  border: 2px solid #1b1f23;
+  margin: 10px 24px;
+  border-radius: 2px;
+  display: inline-block;
+}
+.kik-Hit {
+  color: green;
+}
+
+.kik-Fail {
+  color: red;
+}
