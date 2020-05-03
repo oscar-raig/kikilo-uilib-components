@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.2.0 (2020-05-03)
+
+
+### Features
+
+* testing ci ([3d2fc22](https://github.com/oscar-raig/kikilo-uilib-components/commit/3d2fc22e608a0465b09edf0b75f307afad10600e))
+
+
+
 # 1.1.0 (2020-05-01)
 
 
