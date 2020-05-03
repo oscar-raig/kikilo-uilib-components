@@ -50,7 +50,7 @@ export default function DictionaryQuizSum() {
           <input
             className="kik-Sum-result"
             onChange={resultChanged}
-            size="2"
+            size="3"
             value={result}
             type="number"
           />
