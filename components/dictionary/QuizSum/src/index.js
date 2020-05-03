@@ -1,8 +1,9 @@
 import React, {useState} from 'react'
-// import PropTypes from 'prop-types'
+import PropTypes from 'prop-types'
 
-export default function DictionaryQuizSum() {
-  const generateRandomNumber = () => Math.floor(Math.random() * 10)
+export default function DictionaryQuizSum({digits = 1}) {
+  const generateRandomNumber = () =>
+    Math.floor(Math.random() * Math.pow(10, digits))
   const [firstOperand, setFirstOperand] = useState(generateRandomNumber())
   const [secondOperand, setSecondOperand] = useState(generateRandomNumber())
   const [result, setResult] = useState('')
@@ -29,6 +30,7 @@ export default function DictionaryQuizSum() {
   const showSum = () => {
     return (
       <div className="kik-Sum-Container">
+        <h1>Suma els dos nombres</h1>
         <div className="kik-Fail">
           <span>Errades</span>
           <span> {fails} </span>
@@ -50,7 +52,7 @@ export default function DictionaryQuizSum() {
           <input
             className="kik-Sum-result"
             onChange={resultChanged}
-            size="3"
+            size="4"
             value={result}
             type="number"
           />
@@ -70,13 +72,10 @@ export default function DictionaryQuizSum() {
       </div>
     )
   }
-  return (
-    <div className="kikilo-DictionaryQuizSum">
-      <h1>DictionaryQuizSum</h1>
-      {showSum()}
-    </div>
-  )
+  return <div className="kikilo-DictionaryQuizSum">{showSum()}</div>
 }
 
 DictionaryQuizSum.displayName = 'DictionaryQuizSum'
-DictionaryQuizSum.propTypes = {}
+DictionaryQuizSum.propTypes = {
+  digits: PropTypes.number
+}
