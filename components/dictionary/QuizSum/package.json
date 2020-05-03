@@ -1,7 +1,7 @@
 {
   "name": "@kikilo/kikilo-dictionary-quiz-sum",
   "version": "1.3.0",
-  "description": "",
+  "description": "QuizSum for practice your sums skills",
   "main": "lib/index.js",
   "scripts": {
     "build": "npx rimraf ./lib && npm run build:js && npm run build:styles",
@@ -11,7 +11,7 @@
   "dependencies": {
     "@s-ui/component-dependencies": "1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["kikilo, quiz"],
+  "author": "oscar.raig@gmail.com",
   "license": "MIT"
 }
