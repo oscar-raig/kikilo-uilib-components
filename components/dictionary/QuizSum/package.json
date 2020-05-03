@@ -1,6 +1,6 @@
 {
   "name": "@kikilo/kikilo-dictionary-quiz-sum",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "QuizSum for practice your sums skills",
   "main": "lib/index.js",
   "scripts": {
@@ -11,7 +11,9 @@
   "dependencies": {
     "@s-ui/component-dependencies": "1"
   },
-  "keywords": ["kikilo, quiz"],
+  "keywords": [
+    "kikilo, quiz"
+  ],
   "author": "oscar.raig@gmail.com",
   "license": "MIT"
 }

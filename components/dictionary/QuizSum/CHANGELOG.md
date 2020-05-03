@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.5.0 (2020-05-03)
+
+
+### Features
+
+* force version ([3e6767c](https://github.com/oscar-raig/kikilo-uilib-components/commit/3e6767cff2627a78a85aa0e839309f3c5c53f5ab))
+
+
+
 # 1.3.0 (2020-05-03)
 
 
