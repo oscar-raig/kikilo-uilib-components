@@ -1,6 +1,6 @@
 {
   "name": "@kikilo/kikilo-dictionary-quiz-sum",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "QuizSum for practice your sums skills",
   "main": "lib/index.js",
   "scripts": {
