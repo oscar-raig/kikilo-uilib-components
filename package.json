@@ -1,7 +1,7 @@
 {
   "name": "@kikilo/kikilo-uilib-components",
   "version": "1.1.1",
-  "description": "",
+  "description": "Set of react componentes for kikilo project",
   "private": false,
   "scripts": {
     "build": "sui-studio build",
@@ -13,15 +13,18 @@
     "lint:js": "sui-lint js",
     "lint:sass": "sui-lint sass",
     "lint": "npm run lint:js && npm run lint:sass",
-    "phoenix:ci": "npx @s-ui/mono phoenix --ci && (cd demo && npx @s-ui/mono phoenix --ci)",
-    "phoenix": "npx @s-ui/mono phoenix && (cd demo && npx @s-ui/mono phoenix)",
+    "phoenix:ci": "npx @s-ui/mono phoenix --ci ",
+    "phoenix": "npx @s-ui/mono phoenix",
     "precommit": "sui-precommit run",
     "release": "sui-studio release",
     "start": "sui-studio start"
   },
-  "repository": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar-raig/kikilo-uilib-components.git"
+  },
   "keywords": [],
-  "author": "",
+  "author": "oscar.raig@gmail.com",
   "license": "MIT",
   "devDependencies": {
     "@s-ui/precommit": "2",

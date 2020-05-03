@@ -19,7 +19,7 @@ jobs:
     - stage: Release packages
       if: branch = master AND NOT type = pull_request
       script:
-        - echo "Write here your command"
+        - sh .travis-release.sh
 
 after_failure:
   - reports-publisher
