@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.3.0 (2020-05-03)
+
+
+### Features
+
+* change color and styles ([93f53aa](https://github.com/oscar-raig/kikilo-uilib-components/commit/93f53aa90f3e3b6532df4a6b97d2ee5b4ed549a9))
+
+
+
 # 1.2.0 (2020-05-03)
 
 
