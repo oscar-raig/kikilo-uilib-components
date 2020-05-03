@@ -1,1 +1,2 @@
-return (<DictionaryQuizSum />)
+
+return (<DictionaryQuizSum digits="2" />)

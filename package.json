@@ -23,7 +23,7 @@
     "type": "git",
     "url": "git+https://github.com/oscar-raig/kikilo-uilib-components.git"
   },
-  "keywords": [],
+  "keywords": ["kikilo"],
   "author": "oscar.raig@gmail.com",
   "license": "MIT",
   "devDependencies": {
