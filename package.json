@@ -23,10 +23,13 @@
     "type": "git",
     "url": "git+https://github.com/oscar-raig/kikilo-uilib-components.git"
   },
-  "keywords": ["kikilo"],
+  "keywords": [
+    "kikilo"
+  ],
   "author": "oscar.raig@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@s-ui/i18n": "^1.22.0",
     "@s-ui/precommit": "2",
     "@s-ui/studio": "7",
     "husky": "0.14.3",

@@ -1,7 +1,9 @@
-import React, {useState} from 'react'
+import React, {useState, useContext} from 'react'
 import PropTypes from 'prop-types'
+import Context from '@s-ui/react-context'
 
-export default function DictionaryQuizSum({digits = 1}) {
+export default function DictionaryQuizSum({digits = 1, title = 'SUM_NUMBERS'}) {
+  const {i18n} = useContext(Context)
   const generateRandomNumber = () =>
     Math.floor(Math.random() * Math.pow(10, digits))
   const [firstOperand, setFirstOperand] = useState(generateRandomNumber())
@@ -11,7 +13,7 @@ export default function DictionaryQuizSum({digits = 1}) {
   const [fails, setFails] = useState(0)
   const newQuizResolve = () => {
     // eslint-disable-next-line prettier/prettier
-    console.log(`Resolve   ${result} ${firstOperand} ${secondOperand}`)
+    console.log(`Resolve    ${result} ${firstOperand} ${secondOperand}`)
     if (parseInt(firstOperand) + parseInt(secondOperand) === parseInt(result)) {
       setHits(hits + 1)
     } else {
@@ -30,7 +32,7 @@ export default function DictionaryQuizSum({digits = 1}) {
   const showSum = () => {
     return (
       <div className="kik-Sum-Container">
-        <h1>Suma els dos nombres</h1>
+        <h1>{i18n.t(title)}</h1>
         <div className="kik-Fail">
           <span>Errades</span>
           <span> {fails} </span>
@@ -77,5 +79,6 @@ export default function DictionaryQuizSum({digits = 1}) {
 
 DictionaryQuizSum.displayName = 'DictionaryQuizSum'
 DictionaryQuizSum.propTypes = {
-  digits: PropTypes.number
+  digits: PropTypes.number,
+  title: PropTypes.string
 }
