@@ -2,7 +2,7 @@ import React, {useState, useContext} from 'react'
 import PropTypes from 'prop-types'
 import Context from '@s-ui/react-context'
 
-export default function DictionaryQuizSum({digits = 1, title = 'HELLO_WORLD'}) {
+export default function DictionaryQuizSum({digits = 1, title = 'SUM_NUMBERS'}) {
   const {i18n} = useContext(Context)
   const generateRandomNumber = () =>
     Math.floor(Math.random() * Math.pow(10, digits))
