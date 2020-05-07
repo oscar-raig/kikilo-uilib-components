@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.6.0 (2020-05-08)
+
+
+### Features
+
+* add i18n support ([52a900e](https://github.com/oscar-raig/kikilo-uilib-components/commit/52a900e0f913550222c65db70aeded15999f5af7))
+* default language is ca-ES ([e0e7e9b](https://github.com/oscar-raig/kikilo-uilib-components/commit/e0e7e9bc4054a78ecb2da9da24da3048eab0d36c))
+
+
+
 # 1.5.0 (2020-05-03)
 
 
