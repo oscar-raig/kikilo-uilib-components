@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.8.0 (2020-05-08)
+
+
+### Features
+
+* change bottons ([e37c04a](https://github.com/oscar-raig/kikilo-uilib-components/commit/e37c04a58ecd3d0bafbf526df64c0dce418a5210))
+
+
+
 # 1.7.0 (2020-05-08)
 
 
