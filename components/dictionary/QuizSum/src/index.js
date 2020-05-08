@@ -60,14 +60,14 @@ export default function DictionaryQuizSum({digits = 1, title = 'SUM_NUMBERS'}) {
           />
         </div>
         <div className="kik-buttons-container">
-          <div className="kik-Sum-resolve">
-            <button className="kik-Sum-button" onClick={newQuizResolve}>
-              Resol
-            </button>
-          </div>
           <div className="kik-Sum-new-quiz">
             <button className="kik-Sum-button" onClick={newQuizSum}>
               Nova Suma
+            </button>
+          </div>
+          <div className="kik-Sum-resolve">
+            <button className="kik-Sum-button" onClick={newQuizResolve}>
+              Resol
             </button>
           </div>
         </div>

@@ -31,12 +31,13 @@
   "devDependencies": {
     "@s-ui/i18n": "^1.22.0",
     "@s-ui/precommit": "2",
-    "@s-ui/react-context": "^1.5.0",
     "@s-ui/studio": "7",
     "husky": "0.14.3",
     "validate-commit-msg": "2.14.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@s-ui/react-context": "^1.5.0"
+  },
   "config": {
     "sui-mono": {
       "access": "public",
