@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.7.0 (2020-05-08)
+
+
+### Features
+
+* improve border style ([b6d4dfc](https://github.com/oscar-raig/kikilo-uilib-components/commit/b6d4dfceaf70360509a35789469e66bbdb90ce2c))
+
+
+
 # 1.6.0 (2020-05-08)
 
 
