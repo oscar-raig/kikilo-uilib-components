@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.9.0 (2020-05-09)
+
+
+### Features
+
+* fix travis and change font-size for forcing ([d709662](https://github.com/oscar-raig/kikilo-uilib-components/commit/d70966219d7b6f66ee72edbe0e3fae0e593ae420))
+
+
+
 # 1.8.0 (2020-05-08)
 
 
