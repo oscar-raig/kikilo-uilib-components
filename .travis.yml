@@ -19,9 +19,7 @@ jobs:
     - stage: Release packages
       if: branch = master AND NOT type = pull_request
       script:
-        - npm run phoenix
-        - npm run build
-        - sh .travis-release.sh
+        - npm run phoenix && npm run build && sh .travis-release.sh
 
 after_failure:
   - reports-publisher
