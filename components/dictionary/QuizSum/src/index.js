@@ -13,7 +13,7 @@ export default function DictionaryQuizSum({digits = 1, title = 'SUM_NUMBERS'}) {
   const [fails, setFails] = useState(0)
   const newQuizResolve = () => {
     // eslint-disable-next-line prettier/prettier
-    console.log(`Resolve    ${result} ${firstOperand} ${secondOperand}`)
+    console.log(`Resolve v1    ${result} ${firstOperand} ${secondOperand}`)
     if (parseInt(firstOperand) + parseInt(secondOperand) === parseInt(result)) {
       setHits(hits + 1)
     } else {
