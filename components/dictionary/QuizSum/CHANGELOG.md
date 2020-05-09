@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.12.0 (2020-05-09)
+
+
+### Features
+
+* test ci v2 ([ccaf057](https://github.com/oscar-raig/kikilo-uilib-components/commit/ccaf057e51835569d1d05ecbe97f2bda1ef8ee7f))
+
+
+
 # 1.11.0 (2020-05-09)
 
 
