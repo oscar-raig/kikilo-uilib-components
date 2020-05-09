@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.10.0 (2020-05-09)
+
+
+### Features
+
+* fix travis ([9aaf688](https://github.com/oscar-raig/kikilo-uilib-components/commit/9aaf68849ac9b965cf161667235150843df8011b))
+
+
+
 # 1.9.0 (2020-05-09)
 
 
