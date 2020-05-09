@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.11.0 (2020-05-09)
+
+
+### Features
+
+* test ci toma n + 2 ([4d06341](https://github.com/oscar-raig/kikilo-uilib-components/commit/4d0634136db1defef029f50e4846e818f2720780))
+
+
+
 # 1.10.0 (2020-05-09)
 
 
