@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+# 1.13.0 (2020-05-12)
+
+
+### Features
+
+* using some funny sui components ([ff1010d](https://github.com/oscar-raig/kikilo-uilib-components/commit/ff1010d873421a6c04da1ff7c63c2f64f1300634))
+
+
+
 # 1.12.0 (2020-05-09)
 
 
